@@ -9,4 +9,5 @@ The main outputs are:
 * fft_exact.dat &rarr; the exact result 
 * simpleRK4.dat &rarr; the output of the RK4 differential equation solver. 
 
-This example has been done with the function $f(t) $ 
+This example has been done with the function $f(t) = e^{-(t-5)^2/2}  $. Note that the convention is done with a positive $i \omega$, i.e. 
+$ f(\omega) = \int_{-\inf}^\inf f(t) e^{i \omega t } = \sqrt{2 \pi} e^{ - \omega^2/2 + 5 i \omega } $ 
